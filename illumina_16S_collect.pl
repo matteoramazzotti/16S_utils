@@ -2,7 +2,7 @@
 if (!$ARGV[0]) {
 	print "\nUSAGE: illumina_16S_collect.pl dir [dir] [dir]\n\n";
 	print "   This script loads Illumina summary reports (obtained by direct reads classification)\n";
-	print "   and create independent count files for the different taxonomic ranks.\n\n";
+	print "   and creates independent count files for the different taxonomic ranks.\n\n";
 	exit;
 }
 foreach $d (@ARGV) {
